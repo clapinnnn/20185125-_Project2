@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-	
+
 	// p.115, 1번 문제
 	string string1, string2;
 
@@ -22,16 +22,16 @@ int main() {
 		cout << "2개의 문자열은 같습니다." << endl;
 	cout << endl;
 
-	
+
 	// p.117, 10번 문제
-	for (int a = 1; a <= 100; a++) 
-		for (int b = 1; b <= 100; b++) 
-			for (int c = 1; c <= 100; c++) 
+	for (int a = 1; a <= 100; a++)
+		for (int b = 1; b <= 100; b++)
+			for (int c = 1; c <= 100; c++)
 				if (a * a + b * b == c * c)
 					cout << a << " " << b << " " << c << endl;
 	cout << endl;
 
-	
+
 	// p.119, 16번 문제
 	int cash, bets, win;
 	bool result;
@@ -75,3 +75,4 @@ int main() {
 	cout.precision(6);
 	cout << "이긴 확률=" << wins / 1000.0 * 100.0 << endl;
 	cout << "평균 배팅 횟수 = " << total / 1000.0 << endl;
+}
