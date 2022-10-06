@@ -75,5 +75,4 @@ int main() {
 	cout.precision(6);
 	cout << "ÀÌ±ä È®·ü=" << wins / 1000.0 * 100.0 << endl;
 	cout << "Æò±Õ ¹èÆÃ È½¼ö = " << total / 1000.0 << endl;
-
-}
+	cout << endl;
