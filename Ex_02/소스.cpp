@@ -60,7 +60,4 @@ int main() {
 		cout << "안전합니다." << endl;
 	else
 		cout << "안전하지 않습니다." << endl;
-		
-	
-
 }

@@ -41,5 +41,4 @@ int main() {
 		cout << "ÀÌ¸§ #" << i + 1 << ": " << names[i] << endl;
 
 	delete[] names;
-
 }
